@@ -1,0 +1,7 @@
+# RangeSeekSliderTimeSample
+
+### このリポジトリの概要
+- 日報アプリ作ってて、Handleが2つあるスライダーで開始時刻と終了時刻を取りたくてRangeSeekSlider使ったときのメモ
+- Sliderの値は基本Float型で取得されるが、それを秒に変換してシステムの絶対参照日（2001年1月1日の00:00:00 UTC）からの差分で時間を算出するロジックを実装
+- MultiHandleのSliderのライブラリいろいろ試してみた結果RangeSeekSliderが一番使いやすかった
+- AutoLayoutうまくいってないので参考にしないでください
