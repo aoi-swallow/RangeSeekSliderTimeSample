@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14EB2D0FA3630A574A2664210399A193 /* RangeSeekSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FDE6C5459CA48B492D1F6C6D8B295 /* RangeSeekSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		176C3FE79788D9BE7564AE847481F416 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332A7FBB6374494A6CFBE524A2C4950F /* CoreGraphics.framework */; };
+		1F01728C2A1FE224CED07492A593EDD0 /* RangeSeekSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE7C18933B7D0BD30351898E20A5761 /* RangeSeekSlider-dummy.m */; };
+		1FF0C05B4BB15D4FFAE7505539A51496 /* RangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F7B8066C64B315C981C9144DE8DA1 /* RangeSeekSlider.swift */; };
+		35EBBD46DDDF1B61ED7ADC2FB8A73979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E0793204BC4297E5D7611C4B708CCB /* Foundation.framework */; };
+		4D1F396A9F641D842C51F53EEF8AEFD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E0793204BC4297E5D7611C4B708CCB /* Foundation.framework */; };
+		7AA37293FCEA958C9664873E5F1F009B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B47C49427D8450C412A7F38AC4D176 /* UIKit.framework */; };
+		7F4CA3713F5D25FF9E82832EAF2E3D6E /* RangeSeekSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A230B726E90692B07A09C9A77285DB /* RangeSeekSliderDelegate.swift */; };
+		ACF35F4CFA9F8684C237129E28C1CF65 /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED20C2C525F872313BACFFF2B6D50C20 /* TapticEngine.swift */; };
+		B8D3F7E1678A69A5D347C86483EE5A4E /* Pods-RangeSeekSliderTimeSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5BB8BA145B02B5D8E1EF96DA96340A /* Pods-RangeSeekSliderTimeSample-dummy.m */; };
+		C195F313CB02070C29F96CF8DBD553D8 /* Pods-RangeSeekSliderTimeSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCC223A8C461B9BDABA8873C2CB8790 /* Pods-RangeSeekSliderTimeSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D59F649E1A079A39F2B8474C9AAD000C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89EDCF07B97F45F1CBAEAE87EA3A5CDE;
+			remoteInfo = RangeSeekSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B47B378F3C89ABE17F9145C68BB335E /* Pods-RangeSeekSliderTimeSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RangeSeekSliderTimeSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E51B8DDC74E196E8DA31F832BE0DF6A /* RangeSeekSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RangeSeekSlider.xcconfig; sourceTree = "<group>"; };
+		1F200B32D8486683D5D0E584A6700CEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A230B726E90692B07A09C9A77285DB /* RangeSeekSliderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeSeekSliderDelegate.swift; path = Sources/RangeSeekSliderDelegate.swift; sourceTree = "<group>"; };
+		332A7FBB6374494A6CFBE524A2C4950F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		378C0239B6123FD2449E847DDECBCF39 /* Pods-RangeSeekSliderTimeSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RangeSeekSliderTimeSample-resources.sh"; sourceTree = "<group>"; };
+		440F781456C5AA8D8F77D75FB9CFBAF5 /* Pods-RangeSeekSliderTimeSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RangeSeekSliderTimeSample.release.xcconfig"; sourceTree = "<group>"; };
+		4A801D13A75DBAFC645B4514EF442C4B /* RangeSeekSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangeSeekSlider-prefix.pch"; sourceTree = "<group>"; };
+		5B4C7490F52648AD54D6C5F530E80E58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BFAC760985B569407FC4C0F8CD35F80 /* Pods-RangeSeekSliderTimeSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RangeSeekSliderTimeSample.modulemap"; sourceTree = "<group>"; };
+		5C4128E3551AC89E31489D72869E5F26 /* RangeSeekSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RangeSeekSlider.modulemap; sourceTree = "<group>"; };
+		6C7F7B8066C64B315C981C9144DE8DA1 /* RangeSeekSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeSeekSlider.swift; path = Sources/RangeSeekSlider.swift; sourceTree = "<group>"; };
+		70B47C49427D8450C412A7F38AC4D176 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7137AAE52B7B459E31971AAC75960AA2 /* Pods-RangeSeekSliderTimeSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RangeSeekSliderTimeSample-frameworks.sh"; sourceTree = "<group>"; };
+		8898F426074CCEF868A6874EBAB90FE5 /* Pods_RangeSeekSliderTimeSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RangeSeekSliderTimeSample.framework; path = "Pods-RangeSeekSliderTimeSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCC223A8C461B9BDABA8873C2CB8790 /* Pods-RangeSeekSliderTimeSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RangeSeekSliderTimeSample-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE5BB8BA145B02B5D8E1EF96DA96340A /* Pods-RangeSeekSliderTimeSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RangeSeekSliderTimeSample-dummy.m"; sourceTree = "<group>"; };
+		B8E0793204BC4297E5D7611C4B708CCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA5FDE6C5459CA48B492D1F6C6D8B295 /* RangeSeekSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangeSeekSlider-umbrella.h"; sourceTree = "<group>"; };
+		D8C4901C5A58A8AB262843F84D8AEAB1 /* RangeSeekSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RangeSeekSlider.framework; path = RangeSeekSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11AC35B223B01C00A798C93FB98DA2B /* Pods-RangeSeekSliderTimeSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RangeSeekSliderTimeSample.debug.xcconfig"; sourceTree = "<group>"; };
+		EBE7C18933B7D0BD30351898E20A5761 /* RangeSeekSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RangeSeekSlider-dummy.m"; sourceTree = "<group>"; };
+		ED20C2C525F872313BACFFF2B6D50C20 /* TapticEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapticEngine.swift; path = Sources/TapticEngine.swift; sourceTree = "<group>"; };
+		FDB2C6E65A4C8744845E743E76C96B1C /* Pods-RangeSeekSliderTimeSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RangeSeekSliderTimeSample-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90E3DAF8899A58A37F828CDCD2EBE586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EBBD46DDDF1B61ED7ADC2FB8A73979 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC937AE01320F476E45BE01C89242DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176C3FE79788D9BE7564AE847481F416 /* CoreGraphics.framework in Frameworks */,
+				4D1F396A9F641D842C51F53EEF8AEFD4 /* Foundation.framework in Frameworks */,
+				7AA37293FCEA958C9664873E5F1F009B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				783AC406169EF39EFE9B0561CF0AC2AB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		286B4C7FB62C6315BADD450720664BA8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98C01A8775D153F1BCD8BC81A9A3779E /* Pods-RangeSeekSliderTimeSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2AD62F6B06E8469FD0C9A88ACC432196 /* RangeSeekSlider */ = {
+			isa = PBXGroup;
+			children = (
+				6C7F7B8066C64B315C981C9144DE8DA1 /* RangeSeekSlider.swift */,
+				31A230B726E90692B07A09C9A77285DB /* RangeSeekSliderDelegate.swift */,
+				ED20C2C525F872313BACFFF2B6D50C20 /* TapticEngine.swift */,
+				A3CFB84F4AE672DE78E35B95F853412D /* Support Files */,
+			);
+			name = RangeSeekSlider;
+			path = RangeSeekSlider;
+			sourceTree = "<group>";
+		};
+		783AC406169EF39EFE9B0561CF0AC2AB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				332A7FBB6374494A6CFBE524A2C4950F /* CoreGraphics.framework */,
+				B8E0793204BC4297E5D7611C4B708CCB /* Foundation.framework */,
+				70B47C49427D8450C412A7F38AC4D176 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				D1736268046A82452556801FB7C3AFDD /* Pods */,
+				EAE54311324709076F7E8A7AB65313DF /* Products */,
+				286B4C7FB62C6315BADD450720664BA8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98C01A8775D153F1BCD8BC81A9A3779E /* Pods-RangeSeekSliderTimeSample */ = {
+			isa = PBXGroup;
+			children = (
+				5B4C7490F52648AD54D6C5F530E80E58 /* Info.plist */,
+				5BFAC760985B569407FC4C0F8CD35F80 /* Pods-RangeSeekSliderTimeSample.modulemap */,
+				0B47B378F3C89ABE17F9145C68BB335E /* Pods-RangeSeekSliderTimeSample-acknowledgements.markdown */,
+				FDB2C6E65A4C8744845E743E76C96B1C /* Pods-RangeSeekSliderTimeSample-acknowledgements.plist */,
+				AE5BB8BA145B02B5D8E1EF96DA96340A /* Pods-RangeSeekSliderTimeSample-dummy.m */,
+				7137AAE52B7B459E31971AAC75960AA2 /* Pods-RangeSeekSliderTimeSample-frameworks.sh */,
+				378C0239B6123FD2449E847DDECBCF39 /* Pods-RangeSeekSliderTimeSample-resources.sh */,
+				8FCC223A8C461B9BDABA8873C2CB8790 /* Pods-RangeSeekSliderTimeSample-umbrella.h */,
+				E11AC35B223B01C00A798C93FB98DA2B /* Pods-RangeSeekSliderTimeSample.debug.xcconfig */,
+				440F781456C5AA8D8F77D75FB9CFBAF5 /* Pods-RangeSeekSliderTimeSample.release.xcconfig */,
+			);
+			name = "Pods-RangeSeekSliderTimeSample";
+			path = "Target Support Files/Pods-RangeSeekSliderTimeSample";
+			sourceTree = "<group>";
+		};
+		A3CFB84F4AE672DE78E35B95F853412D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F200B32D8486683D5D0E584A6700CEA /* Info.plist */,
+				5C4128E3551AC89E31489D72869E5F26 /* RangeSeekSlider.modulemap */,
+				1E51B8DDC74E196E8DA31F832BE0DF6A /* RangeSeekSlider.xcconfig */,
+				EBE7C18933B7D0BD30351898E20A5761 /* RangeSeekSlider-dummy.m */,
+				4A801D13A75DBAFC645B4514EF442C4B /* RangeSeekSlider-prefix.pch */,
+				BA5FDE6C5459CA48B492D1F6C6D8B295 /* RangeSeekSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RangeSeekSlider";
+			sourceTree = "<group>";
+		};
+		D1736268046A82452556801FB7C3AFDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AD62F6B06E8469FD0C9A88ACC432196 /* RangeSeekSlider */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAE54311324709076F7E8A7AB65313DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8898F426074CCEF868A6874EBAB90FE5 /* Pods_RangeSeekSliderTimeSample.framework */,
+				D8C4901C5A58A8AB262843F84D8AEAB1 /* RangeSeekSlider.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87A3A1A12BEC068F07F25A0BB35428FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C195F313CB02070C29F96CF8DBD553D8 /* Pods-RangeSeekSliderTimeSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DF66012574125D5F576BCF6A8ABA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EB2D0FA3630A574A2664210399A193 /* RangeSeekSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89EDCF07B97F45F1CBAEAE87EA3A5CDE /* RangeSeekSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9829BDFAFF7EC2FD1C5C8D3F7D752BA9 /* Build configuration list for PBXNativeTarget "RangeSeekSlider" */;
+			buildPhases = (
+				D14DF66012574125D5F576BCF6A8ABA9 /* Headers */,
+				D3B74134ACAB4BB713ACA527733E38BC /* Sources */,
+				BC937AE01320F476E45BE01C89242DBD /* Frameworks */,
+				053350705A34556D86EC7C2A136D0BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RangeSeekSlider;
+			productName = RangeSeekSlider;
+			productReference = D8C4901C5A58A8AB262843F84D8AEAB1 /* RangeSeekSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBEED7B6CFE3E2A50E273984F36CE54F /* Pods-RangeSeekSliderTimeSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2511360021DDC9139CAC0700597B2D /* Build configuration list for PBXNativeTarget "Pods-RangeSeekSliderTimeSample" */;
+			buildPhases = (
+				87A3A1A12BEC068F07F25A0BB35428FD /* Headers */,
+				9E3D3E3CF001E6F1821C41B91627C90D /* Sources */,
+				90E3DAF8899A58A37F828CDCD2EBE586 /* Frameworks */,
+				BD2DA5610307633781AC476DE84EEE67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38B7DF9808BF387F8E461971A9ABB24C /* PBXTargetDependency */,
+			);
+			name = "Pods-RangeSeekSliderTimeSample";
+			productName = "Pods-RangeSeekSliderTimeSample";
+			productReference = 8898F426074CCEF868A6874EBAB90FE5 /* Pods_RangeSeekSliderTimeSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EAE54311324709076F7E8A7AB65313DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBEED7B6CFE3E2A50E273984F36CE54F /* Pods-RangeSeekSliderTimeSample */,
+				89EDCF07B97F45F1CBAEAE87EA3A5CDE /* RangeSeekSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		053350705A34556D86EC7C2A136D0BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2DA5610307633781AC476DE84EEE67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E3D3E3CF001E6F1821C41B91627C90D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D3F7E1678A69A5D347C86483EE5A4E /* Pods-RangeSeekSliderTimeSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B74134ACAB4BB713ACA527733E38BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F01728C2A1FE224CED07492A593EDD0 /* RangeSeekSlider-dummy.m in Sources */,
+				1FF0C05B4BB15D4FFAE7505539A51496 /* RangeSeekSlider.swift in Sources */,
+				7F4CA3713F5D25FF9E82832EAF2E3D6E /* RangeSeekSliderDelegate.swift in Sources */,
+				ACF35F4CFA9F8684C237129E28C1CF65 /* TapticEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38B7DF9808BF387F8E461971A9ABB24C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RangeSeekSlider;
+			target = 89EDCF07B97F45F1CBAEAE87EA3A5CDE /* RangeSeekSlider */;
+			targetProxy = D59F649E1A079A39F2B8474C9AAD000C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		349B260FC53026036E75F36511D981C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		42A986725B77C35FA7E4E06D3C34ED04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11AC35B223B01C00A798C93FB98DA2B /* Pods-RangeSeekSliderTimeSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RangeSeekSliderTimeSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RangeSeekSliderTimeSample/Pods-RangeSeekSliderTimeSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A405DB87E5F8C4D1592BC8CD9B69453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440F781456C5AA8D8F77D75FB9CFBAF5 /* Pods-RangeSeekSliderTimeSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RangeSeekSliderTimeSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RangeSeekSliderTimeSample/Pods-RangeSeekSliderTimeSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9394D260877B43A09C9798F315A792D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B09B2A89F3DF1ACCD8482AA234E87781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E51B8DDC74E196E8DA31F832BE0DF6A /* RangeSeekSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RangeSeekSlider/RangeSeekSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RangeSeekSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RangeSeekSlider/RangeSeekSlider.modulemap";
+				PRODUCT_MODULE_NAME = RangeSeekSlider;
+				PRODUCT_NAME = RangeSeekSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B661CE6E99FDBADCD1787B4304DB697F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E51B8DDC74E196E8DA31F832BE0DF6A /* RangeSeekSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RangeSeekSlider/RangeSeekSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RangeSeekSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RangeSeekSlider/RangeSeekSlider.modulemap";
+				PRODUCT_MODULE_NAME = RangeSeekSlider;
+				PRODUCT_NAME = RangeSeekSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349B260FC53026036E75F36511D981C4 /* Debug */,
+				9394D260877B43A09C9798F315A792D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9829BDFAFF7EC2FD1C5C8D3F7D752BA9 /* Build configuration list for PBXNativeTarget "RangeSeekSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B661CE6E99FDBADCD1787B4304DB697F /* Debug */,
+				B09B2A89F3DF1ACCD8482AA234E87781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2511360021DDC9139CAC0700597B2D /* Build configuration list for PBXNativeTarget "Pods-RangeSeekSliderTimeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A986725B77C35FA7E4E06D3C34ED04 /* Debug */,
+				4A405DB87E5F8C4D1592BC8CD9B69453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
